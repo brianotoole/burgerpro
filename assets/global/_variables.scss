@@ -1,0 +1,36 @@
+/*********************************************************
+  Variables
+  @NOTE: variable naming is using BEM conventions
+*********************************************************/
+
+// plugin colors
+$color__primary:     #CF415B;
+$color__secondary:   #CF415B;
+$color__tertiary:    #707070;
+$color__text:        #111111;
+$color__white:       #ffffff;
+$color__black:       #111111;
+
+// utility colors
+$color__error:       #b80d15;
+$color__success:     #199e00; 
+
+// shades
+$color__primary--dark: darken($color__primary, 7%);
+$color__secondary--dark: darken($color__secondary, 7%);
+$color__tertiary--dark: darken($color__tertiary, 7%);
+
+// borders
+$color__border:         rgba($color__black, 0.25);
+$color__border--light:  rgba($color__white, 0.25);
+$color__border--dark:   rgba($color__black, 0.99);
+
+// fonts
+$font-size: 1rem; //1rem == 16px
+
+// breakpoints
+$desktop-wide:  1171px;
+$desktop:       1025px;
+$tablet:         769px;
+$mobile:         481px;
+$phone:        $mobile;

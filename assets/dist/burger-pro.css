@@ -1,0 +1,91 @@
+/*********************************************************
+  Entry.scss = main scss entry for widgets 
+*********************************************************/
+/*********************************************************
+  Global
+*********************************************************/
+/*********************************************************
+  Mixins
+*********************************************************/
+/**
+  * PX to REM Conversion
+  * USAGE: .class {font-size: rem(18)}
+  */
+/*********************************************************
+  Variables
+  @NOTE: variable naming is using BEM conventions
+*********************************************************/
+/*********************************************************
+  Typography
+*********************************************************/
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit; }
+
+/*********************************************************
+  Utility / Helper Classes
+  @NOTE: prefix with ".u-"
+*********************************************************/
+/**
+  * Visibility
+  */
+.u-visible-desktop {
+  display: none; }
+  @media (min-width: 1025px) {
+    .u-visible-desktop {
+      display: block; } }
+
+.u-visible-tablet {
+  display: none; }
+  @media (min-width: 769px) {
+    .u-visible-tablet {
+      display: block; } }
+
+@media (min-width: 1025px) {
+  .u-hidden-desktop {
+    display: none; } }
+
+@media (min-width: 769px) {
+  .u-hidden-tablet {
+    display: none; } }
+
+@media (max-width: 769px) {
+  .u-hidden-phone {
+    display: none !important; } }
+
+/**
+    * Alignments
+    */
+.u-text-center {
+  text-align: center !important; }
+
+.u-text-right {
+  text-align: right !important; }
+
+/**
+    * Text Colors
+    */
+.u-color-white {
+  color: #ffffff; }
+
+.u-color-primary {
+  color: #CF415B; }
+
+.u-color-link {
+  color: #CF415B; }
+
+.u-color-secondary {
+  color: #CF415B; }
+
+/**
+    * Background Colors
+    */
+.u-bg-primary {
+  background-color: #CF415B; }
+
+.u-bg-secondary {
+  background-color: #CF415B; }
+
+.u-bg-white {
+  background-color: #ffffff; }
