@@ -11,7 +11,7 @@ Text Domain: burgerpro
 
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
-define( 'PROWIDGETS__FILE__', __FILE__ );
+define( 'BURGERPRO__FILE__', __FILE__ );
 
 
 

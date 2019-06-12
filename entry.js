@@ -6,4 +6,4 @@
 import './entry.scss';
 
 // Plugin specific scripts
-//require('./widgets/accordion/accordion.js');
+require('./assets/layout/nav.js');
